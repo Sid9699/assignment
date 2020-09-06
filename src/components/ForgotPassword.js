@@ -20,7 +20,7 @@ function ForgotPassword({toggleForget,setToggleForget}){
     }
 
     return (
-        <div style={{ display: toggleForget? "block":"none"}} className='popup'>
+        <div style={{ display: toggleForget? "flex":"none"}} className='popup'>
             <div className='popup-content'>
                 <img className='cross' src={cross} onClick={()=>{ setToggleForget(false)}} alt='cross' />
                 <h2>Forgot Password</h2>
