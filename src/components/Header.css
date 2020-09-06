@@ -1,0 +1,33 @@
+.nav {
+    background-color: #f7f7f7;
+    min-height: 50px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+  
+.links {
+    display: flex;
+    justify-content: space-a;
+    flex-direction: row;
+    align-items: center;
+}
+  
+.link {
+    color: #787878;
+    width: 100%;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 0.5em;
+    text-decoration: none;
+    text-align: center;
+}
+  
+.link-selected {
+    background-color: #8379F1;
+    color: whitesmoke;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+  
