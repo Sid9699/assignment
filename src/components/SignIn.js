@@ -92,8 +92,10 @@ function SignIn(props){
                                 />
                                 <input 
                                     className='login-input'
-                                    type='date'
+                                    type='text'
                                     name='dob'
+                                    placeholder='date of birth'
+                                    onFocus={e=>e.target.type='date'}
                                     placeholder='Date of Birth'
                                     value={dob}
                                     onChange={e=>setDob(e.target.value)}
